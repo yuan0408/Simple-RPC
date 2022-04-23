@@ -11,10 +11,11 @@ import java.io.Serializable;
 @AllArgsConstructor
 @Data
 @Builder
-public class User implements Serializable {
-    private static final long serialVersionUID = -4170563383973205947L;
+public class Blog implements Serializable {
+    private static final long serialVersionUID = -8842232088648669997L;
 
-    private int id;
-    private String name;
-    private boolean sex;
+    private Integer id;
+    private String title;
+    private String author;
+    private String content;
 }

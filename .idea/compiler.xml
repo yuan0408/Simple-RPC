@@ -11,7 +11,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="RPC-simple" target="1.5" />
+      <module name="RPC-simple" target="7" />
       <module name="service" target="1.5" />
     </bytecodeTargetLevel>
   </component>
